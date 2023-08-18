@@ -6,3 +6,4 @@ vbcc/bin/
 vasm/obj/
 vasm/vobjdump
 vasm/vasmm68k_mot
+bin
