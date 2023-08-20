@@ -13,3 +13,11 @@ location, just run `make install INSTALL_DIR=/path/to/vbcc`.
 
 Make sure that you set the `VBCC` env variable to the vbcc directory, and add
 $VBCC/bin to your PATH.
+
+## NDKs
+This repo also contains the Amiga NDK for Kicstart/Workbench 1.3. The NDK was 
+taken from the [Amiga Developer CD 1.2](https://archive.org/details/amigadevelopercdv1.2),
+hoping that nobody is going to sue me... 
+
+The NDKs were also added to the configs, so when you compile with `vc +kick13`, the 
+include path already contains the Amiga headers.

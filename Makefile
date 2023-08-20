@@ -24,4 +24,5 @@ install:
 	@cp -R config $(INSTALL_DIR)/
 	@cp -R bin $(INSTALL_DIR)/
 	@cp -R docs $(INSTALL_DIR)/
+	@cp -R ndks $(INSTALL_DIR)/
 	@echo vbcc installed in $(INSTALL_DIR)
